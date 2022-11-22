@@ -1,0 +1,22 @@
+site_name: Integration Wiki
+site_url: https://example.com/
+repo_name: IntegrationWiki
+repo_url: https://github.com/equinor/IntegrationWiki.git
+nav:
+    - Home: index.md
+    - BizTalk: BizTalk.md
+    - IBM MQ: IBM MQ.md
+    - ETL ADF: SSIS.md
+    - ISE: ISE.md
+  
+    
+theme:
+  name: 'material'
+  palette:
+    scheme: 'slate'
+    primary: 'light blue'
+    accent: 'yellow'
+
+markdown_extensions:
+  - attr_list
+
